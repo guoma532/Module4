@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>My First Quized App</title>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-=width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/style.css">
+        <title>Timed Quiz</title>
+
     </head>
     <body>
-        <div class="app">
-            <h1>Coding Quiz</h1>
-            <div class="quiz">
-                <h2 id="question">Question goes here</h2>
-                <div id="answer-buttons">
-                    <button class="btn">Answer 1</button>
-                    <button class="btn">Answer 2</button>
-                    <button class="btn">Answer 3</button>
-                    <button class="btn">Answer 4</button>
+        <div class="start-screen">
+            <button id="start-button">Start</button>
+        </div>
+        <div id="display-container">
+            <div class="header">
+                <div class="nukber=ofcount">
+                    <span class="number-of-questions">
+                        1 of 10 questions
+                    </span>
                 </div>
+                <div class="tier-div"></div>
             </div>
         </div>
-    </body>
-    </html>
+        <script src="assets/scripts.js"></script>
+</body>
+</html>
